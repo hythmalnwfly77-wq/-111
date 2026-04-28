@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموسوعة المرورية العمانية الشاملة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --oman-red: #d9232e;
+            --oman-green: #007a3d;
+            --gold: #c5a059;
+            --dark-blue: #1a2a3a;
+            --light-gray: #f4f7f6;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Cairo', sans-serif; }
+        body { background: var(--light-gray); color: #333; overflow-x: hidden; }
+
+        /* الهيدر الاحترافي */
+        header {
+            background: var(--dark-blue);
+            color: white;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 5px solid var(--gold);
+        }
+
+        /* قسم الإحصائيات التاريخية - جذاب جداً للمعارض */
+        .stats-section {
+            padding: 60px 5%;
+            background: white;
+            text-align: center;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .stat-box {
+            background: var(--light-gray);
+            padding: 30px;
+            border-radius: 15px;
+            border-bottom: 5px solid var(--oman-green);
+        }
+
+        .stat-box h2 { font-size: 2.5rem; color: var(--oman-red); margin-bottom: 10px; }
+        .stat-box p { font-weight: bold; font-size: 1.1rem; }
+
+        /* قسم القوانين التفصيلية */
+        .law-detail {
+            padding: 60px 5%;
+        }
+
+        .law-container {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .law-header {
+            background: var(--oman-green);
+            color: white;
+            padding: 20px;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .law-content { padding: 40px; }
+        
+        .law-item {
+            margin-bottom: 30px;
+            border-right: 4px solid var(--oman-red);
+            padding-right: 20px;
+        }
+
+        .law-item h3 { color: var(--oman-red); margin-bottom: 10px; }
+        .law-item ul { list-style: none; margin-top: 10px; }
+        .law-item ul li { margin-bottom: 8px; position: relative; padding-right: 20px; }
+        .law-item ul li::before { content: "•"; color: var(--gold); position: absolute; right: 0; font-weight: bold; }
+
+        /* جدول الغرامات */
+        .fines-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .fines-table th, .fines-table td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .fines-table th { background: var(--dark-blue); color: white; }
+
+        .history-box {
+            background: #fff8e1;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: 1px dashed var(--gold);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1 style="font-size: 1.8rem;">بوابة سلطنة عُمان الرقمية للسلامة المرورية</h1>
+            <p style="color: var(--gold);">عُمان عبر الزمان: وعيٌ متجدد</p>
+        </div>
+        <div style="text-align: left;">
+            <p>شرطة عُمان السلطانية</p>
+            <strong>الإدارة العامة للمرور</strong>
+        </div>
+    </header>
+
+    <section class="stats-section">
+        <h2 style="font-size: 2.2rem; color: var(--dark-blue);">إحصائيات مرورية: عُمان عبر الزمان</h2>
+        <p>بفضل الجهود الوطنية والتوعية، شهدت السلطنة انخفاضاً ملحوظاً في الوفيات بنسبة تزيد عن 60% خلال العقد الأخير.</p>
+        
+        <div class="stats-grid">
+            <div class="stat-box">
+                <p>سنة 2012 (الذروة)</p>
+                <h2>1,139</h2>
+                <p>وفاة سنوياً</p>
+            </div>
+            <div class="stat-box" style="border-bottom-color: var(--oman-red);">
+                <p>سنة 2023</p>
+                <h2>380~</h2>
+                <p>وفاة سنوياً</p>
+            </div>
+            <div class="stat-box">
+                <p>انخفاض الحوادث</p>
+                <h2>67%</h2>
+                <p>منذ عام 2012</p>
+            </div>
+            <div class="stat-box">
+                <p>عدد المركبات</p>
+                <h2>1.6M+</h2>
+                <p>مركبة مسجلة</p>
+            </div>
+        </div>
+
+        <div class="history-box">
+            <strong>معلومة تاريخية:</strong> بدأت النهضة المرورية الكبرى في السلطنة مع تحديث قانون المرور في عام 1993، تلاها إدخال أنظمة الضبط الإلكتروني (الرادارات) التي ساهمت بشكل جذري في تقليل السرعات الجنونية.
+        </div>
+    </section>
+
+    <div class="law-detail">
+        <div class="law-container">
+            <div class="law-header">التفاصيل القانونية واللائحة التنفيذية</div>
+            <div class="law-content">
+                
+                <div class="law-item">
+                    <h3>1. نظام النقاط المرورية (المرصاد)</h3>
+                    <p>قانون عماني متطور يهدف لردع المخالفين المتكررين:</p>
+                    <ul>
+                        <li>يمنح السائق 12 نقطة سنوياً.</li>
+                        <li>عند استنفاد النقاط (بسبب مخالفات كبرى)، تُسحب الرخصة لمدة 3 أشهر في المرة الأولى.</li>
+                        <li>المخالفات الخطرة (مثل عكس السير) تخصم نقاطاً أكبر وتؤدي للمساءلة القانونية الفورية.</li>
+                    </ul>
+                </div>
+
+                <div class="law-item">
+                    <h3>2. مخالفات السرعة (الرادار)</h3>
+                    <table class="fines-table">
+                        <tr>
+                            <th>تجاوز السرعة</th>
+                            <th>الغرامة المالية</th>
+                            <th>النقاط المرورية</th>
+                        </tr>
+                        <tr>
+                            <td>أقل من 15 كم/س</td>
+                            <td>10 ريال عماني</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <td>15 - 35 كم/س</td>
+                            <td>15 ريال عماني</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>أكثر من 80 كم/س</td>
+                            <td>محاكمة وحجز</td>
+                            <td>3+</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="law-item">
+                    <h3>3. البيئة والجمالية المرورية</h3>
+                    <p>يتميز القانون العماني بصرامة في مظهر المركبة:</p>
+                    <ul>
+                        <li>يُمنع وضع الملصقات العشوائية دون تصريح من شرطة عمان السلطانية.</li>
+                        <li>يُمنع تغيير لون المركبة أو إضافة "تزويدات" صوتية (مخالفة الضجيج).</li>
+                        <li>يجب الحفاظ على نظافة المركبة، حيث توجد مخالفة لـ "تشويه المنظر العام" للمركبات المتسخة جداً.</li>
+                    </ul>
+                </div>
+
+                <div class="law-item">
+                    <h3>4. شروط سياقة الدراجات والتمويه</h3>
+                    <p>القوانين الصارمة للدراجات النارية تشمل لبس الخوذة الإلزامي ومنع القيادة في المسارات غير المخصصة لها في المناطق السكنية.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer style="background: var(--dark-blue); color: white; padding: 40px; text-align: center;">
+        <p>المصدر: البيانات المفتوحة لشرطة عمان السلطانية - المركز الوطني للإحصاء والمعلومات</p>
+        <p style="margin-top: 15px; color: var(--gold);">نعمل معاً من أجل طرق خالية من الحوادث</p>
+    </footer>
+
+</body>
+</html>
+    
+  </body>
+  
+</html>
